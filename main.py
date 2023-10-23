@@ -1,4 +1,4 @@
-from time import *
+from clock import *
 def main():
 	# create a time object named t1 thats hour is 2, minute is 30, and seconds are 5.
 	t1 = time(2,30,5)
@@ -11,15 +11,15 @@ def main():
 	# create a time object named t5 thats hour is 3, minute is 25, and seconds are 25.
 	t5 = time(3,25,25)
 	# display a string representation of t1
-	time.__str__(t1)
+	print(time.__str__(t1))
 	# display a string representation of t2
-	time.__str__(t2)
+	print(time.__str__(t2))
 	# display a string representation of t3
-	time.__str__(t3)
+	print(time.__str__(t3))
 	# display a string representation of t4
-	time.__str__(t4)
+	print(time.__str__(t4))
 	# display a string representation of t5
-	time.__str__(t5)
+	print(time.__str__(t5))
 	# display the result of testing if t1 is equal to t5
 
 	# use getter and setter methods to make t1 the same time

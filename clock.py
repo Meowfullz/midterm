@@ -30,6 +30,7 @@ class time:
 		self.__hour = hour
 		self.__minute = minute
 		self.__second = second
+		self.__time = f"{self.__hour}:{self.__minute}:{self.__second}"
 	
 
 	def getHour(self):
